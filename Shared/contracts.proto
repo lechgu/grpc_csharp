@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Shared";
+
+message CalculateRequest{
+    int64 x = 1;
+    int64 y = 2;
+    string op = 3;
+};
+
+message CalculateReply{
+    int64 result = 1;
+}
+
+service Svc {
+    rpc Calculate (CalculateRequest) returns (CalculateReply);
+}
