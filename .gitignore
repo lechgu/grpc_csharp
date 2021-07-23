@@ -4,3 +4,7 @@ bin
 obj
 *.pem
 cert/*.csr
+python/contracts_pb2.py
+python/contracts_pb2_grpc.py
+python/__pycache__
+python/.venv
