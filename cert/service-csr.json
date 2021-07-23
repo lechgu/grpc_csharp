@@ -1,0 +1,17 @@
+{
+  "CN": "127.0.0.1",
+  "hosts": ["localhost", "127.0.0.1", "192.168.7.115"],
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "C": "US",
+      "S": "WA",
+      "ST": "Seattle",
+      "O": "grpc_csharp",
+      "OU": "CA Services"
+    }
+  ]
+}
